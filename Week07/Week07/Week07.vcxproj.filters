@@ -18,10 +18,10 @@
     <ClCompile Include="D:\강의\객체지향설계\실습\자료\7주차\WEEK07_CODE\example_07_01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="D:\강의\객체지향설계\실습\자료\7주차\WEEK07_CODE\homework_07_01.cpp">
+    <ClCompile Include="homework_07_01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="D:\강의\객체지향설계\실습\자료\7주차\WEEK07_CODE\homework_07_02.cpp">
+    <ClCompile Include="homework_07_02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
