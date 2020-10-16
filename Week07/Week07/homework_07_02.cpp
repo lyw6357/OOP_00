@@ -5,7 +5,6 @@ bool funcA() {
     std::cin >> c;
     if (c < 10) //Let's assume this is exception
         throw std::out_of_range("Invalid Input!!");
-    return false;
     return true;
 }
 int main() {
@@ -13,7 +12,7 @@ int main() {
         funcA();
     }
     catch (std::exception& e) {
-        std::cout << "Exception : " << e.what();
+        std::cout << "Exception : " << e.what() << std::endl;
     }
     return 0;
 }
