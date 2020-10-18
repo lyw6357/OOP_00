@@ -1,7 +1,6 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-using namespace std;
 
 class AnyString {
 	std::string anyString;
@@ -13,7 +12,7 @@ public:
 	}
 };
 
-ostream& operator<<(ostream& os, AnyString& a) {
+std::ostream& operator<<(std::ostream& os, AnyString& a) {
 	os << a.getAnyString();
 	return os;
 }
