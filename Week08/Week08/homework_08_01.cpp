@@ -16,7 +16,7 @@ public:
 		m_value = v;
 	}
 	static GlobalClass* instance() {
-		if (s_instance == NULL)  {
+		if (s_instance == NULL) {
 			s_instance = new GlobalClass;
 		}
 		return s_instance;
