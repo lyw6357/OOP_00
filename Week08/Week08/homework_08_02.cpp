@@ -49,4 +49,6 @@ int main() {
 
 	context = new Context(new OperationMultiply);
 	std::cout << "10 * 5 = " << context->executeStrategy(10, 5) << std::endl;
+
+	return 0;
 }
