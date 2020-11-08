@@ -12,7 +12,7 @@ public:
 //Unary operator
  int operator++(int){ //postfix operation (indicated by dummy 'int')
 	int returnNum = this->number;
-	number++;
+	this->number++;
 	return returnNum;
  }
  int operator++(){ //prefix operation
