@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\강의\객체지향설계\실습\자료\13주차\WEEK13_CODE\example_13_01.cpp">
+    <ClCompile Include="example_13_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="D:\강의\객체지향설계\실습\자료\13주차\WEEK13_CODE\homework_13_01.cpp" />
+    <ClCompile Include="homework_13_01.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
