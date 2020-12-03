@@ -34,12 +34,6 @@ struct compGreater {
 	}
 };
 
-void swap(int& first, int& second) {
-	int temp = first;
-	first = second;
-	second = temp;
-}
-
 int main() {
 	std::forward_list<int> values{ 7, 0, 6, 1, 5, 2, 4, 3 };
 
