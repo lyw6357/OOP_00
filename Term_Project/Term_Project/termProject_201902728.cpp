@@ -578,7 +578,7 @@ int main() {
 	Strategy* c = new c_changeWord;
 	Strategy* s = new s_searchWord;
 	Strategy* t = new t_saveAndExit;
-	Menu* selectCommand = new Menu;
+	Menu* selectMenu = new Menu;
 
 	while (true) {
 		string userInput = inputUserMessage();
@@ -587,32 +587,32 @@ int main() {
 		try {
 			switch (menu) {
 			case 'n':
-				selectCommand->setMenu(n);
-				selectCommand->executeMenu(userInput, vector);
+				selectMenu->setMenu(n);
+				selectMenu->executeMenu(userInput, vector);
 				break;
 			case 'p':
-				selectCommand->setMenu(p);
-				selectCommand->executeMenu(userInput, vector);
+				selectMenu->setMenu(p);
+				selectMenu->executeMenu(userInput, vector);
 				break;
 			case 'i':
-				selectCommand->setMenu(i);
-				selectCommand->executeMenu(userInput, vector);
+				selectMenu->setMenu(i);
+				selectMenu->executeMenu(userInput, vector);
 				break;
 			case 'd':
-				selectCommand->setMenu(d);
-				selectCommand->executeMenu(userInput, vector);
+				selectMenu->setMenu(d);
+				selectMenu->executeMenu(userInput, vector);
 				break;
 			case 'c':
-				selectCommand->setMenu(c);
-				selectCommand->executeMenu(userInput, vector);
+				selectMenu->setMenu(c);
+				selectMenu->executeMenu(userInput, vector);
 				break;
 			case 's':
-				selectCommand->setMenu(s);
-				selectCommand->executeMenu(userInput, vector);
+				selectMenu->setMenu(s);
+				selectMenu->executeMenu(userInput, vector);
 				break;
 			case 't':
-				selectCommand->setMenu(t);
-				selectCommand->executeMenu(userInput, vector);
+				selectMenu->setMenu(t);
+				selectMenu->executeMenu(userInput, vector);
 				throw - 1;
 				break;
 			default:
@@ -633,7 +633,7 @@ int main() {
 			delete c;
 			delete s;
 			delete t;
-			delete selectCommand;
+			delete selectMenu;
 			return 0;
 		}
 	}
