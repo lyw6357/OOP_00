@@ -506,7 +506,7 @@ public:
 
 		// 찾은 문자를 처음으로 출력
 		printPage(j, vector);
-		printConsole("주어진 단어를 찾았습니다.");
+		printConsole("해당 단어를 찾았습니다.");
 	}
 };
 
