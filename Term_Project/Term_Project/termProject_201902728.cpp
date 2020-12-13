@@ -56,7 +56,7 @@ int printPage(int startIndex, vector<string>& vector) {
 	return startIndex;
 }
 
-string inputUserMessage() {
+string inputConsole() {
 	string input;
 	cout << " ют╥б: ";
 	cin >> input;
@@ -581,7 +581,7 @@ int main() {
 	Menu* selectMenu = new Menu;
 
 	while (true) {
-		string userInput = inputUserMessage();
+		string userInput = inputConsole();
 		char menu = userInput[0];
 		system("cls");
 		try {
